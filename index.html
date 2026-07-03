@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #005fa3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0077cc;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #005fa3;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <p>Welcome to my simple HTML website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Hello, World!</h2>
+    <p>This is a simple website created using only HTML and CSS.</p>
+    <a href="#" class="btn">Learn More</a>
+</section>
+
+<div class="container">
+    <h2 style="margin-bottom:20px;">Our Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>We create modern and responsive websites for businesses and individuals.</p>
+        </div>
+
+        <div class="card">
+            <h3>Development</h3>
+            <p>Fast, secure, and reliable web applications using modern technologies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Support</h3>
+            <p>24/7 support to help keep your website running smoothly.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
